@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Carrega o DataFrame
-df = pd.read_csv('Ciencia.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/sanchesprogramer/Ciencia-de-dados/main/trab11.csv', encoding='UTF-8', sep=';')
 
 # Imprime os nomes das colunas
 print("Nomes das colunas no DataFrame:")
